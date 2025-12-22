@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  display: block;
+}
+
+.page-wrapper {
+  width: 100%;
+  max-width: none;       
+  margin: 0;             
+
+  font-family: "Georgia", serif;
+  background: #ffffff;
+  color: #0d1b2a;
+
+  overflow-x: hidden;
+}

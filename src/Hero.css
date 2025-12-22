@@ -1,0 +1,201 @@
+/* =========================
+   HERO SECTION
+========================= */
+.hero-section {
+  width: 100%;
+  text-align: center;
+  padding: 80px 20px 60px;
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #ea3c3c;
+}
+
+.highlight {
+  color: #ea3c3c;
+  position: relative;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 4px;
+  background: #f28c48;
+  border-radius: 2px;
+}
+
+.hero-subtitle {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-family: Arial, sans-serif;
+  color: #ea3c3c;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 34px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.primary {
+  background: #5ccf85;
+  border: none;
+  color: #0d1b2a;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid #0d1b2a;
+  color: #0d1b2a;
+}
+
+/* =========================
+   FULL WIDTH BAND
+========================= */
+.band-wrapper {
+  width: 100%;
+  padding-top: 260px;
+  padding-bottom: 200px;
+}
+
+/* CENTERED CONTENT */
+.band-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 60px 90px;
+  position: relative;
+}
+
+/* =========================
+   IMAGE ROW
+========================= */
+.photo-row {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  transform: translateY(-260px);
+  margin-bottom: -200px;
+}
+
+.photo-card {
+  width: 520px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.25);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* NO CROPPING */
+  display: block;
+}
+
+/* =========================
+   CONTENT BELOW IMAGES
+========================= */
+.welcome-content {
+  margin-top: 220px; /* creates space BELOW images */
+  display: flex;
+  gap: 80px;
+  color: #ffffff;
+}
+
+.welcome-left h2 {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.highlight-text {
+  color: #5fd38c;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.welcome-right p {
+  max-width: 520px;
+  line-height: 1.7;
+  font-family: Arial, sans-serif;
+  color: #e2e8e8;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 1100px) {
+  .navbar {
+    padding: 20px 24px;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .photo-row {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -80px;
+  }
+
+  .photo-card {
+    width: 90%;
+    max-width: 520px;
+  }
+
+  .welcome-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .band-content {
+    padding: 0 24px 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .photo-row {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .photo-card {
+    width: 90%;
+    max-width: 520px;
+  }
+
+  .welcome-content {
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 40px;
+  }
+
+  .band-wrapper {
+    width: 100%;
+    background: #233a3a;
+    padding-top: 260px;
+    padding-bottom: 120px;
+  }
+}

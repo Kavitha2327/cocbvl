@@ -1,0 +1,74 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  font-family: "Georgia", serif;
+  background: #ffffff;
+  color: #0d1b2a;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #111;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: #e94b3c;
+}
+
+.start-btn {
+  background: #e94b3c;
+  color: #fff;
+  border: none;
+  border-color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
