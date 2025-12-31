@@ -1,0 +1,70 @@
+#events{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.events-section {
+  padding: 80px 40px;
+  background:#0b45106c;
+  text-align: center;
+}
+
+.events-title {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.events-line {
+  width: 70px;
+  height: 3px;
+  background: #20a4db;
+  margin: 15px auto 60px;
+}
+
+.events-grid {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  width: 330px;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+}
+
+.event-img img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.event-body {
+  background: #0b4510ba;
+  color: #f2ecec;
+  text-align: left;
+  padding: 20px 22px;
+}
+
+.event-body h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.event-date,
+.event-place {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+

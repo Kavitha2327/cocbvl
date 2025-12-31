@@ -1,0 +1,50 @@
+.contact-block {
+  padding: 90px 40px;
+  background: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto 100px;
+}
+
+.contact-block h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #0d1b2a;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  border-top: 2px solid #eee;
+  padding-top: 40px;
+}
+
+.contact-left,
+.contact-right {
+  width: 50%;
+}
+
+.contact-content h3 {
+  color: #e94b3c;
+  margin-bottom: 14px;
+}
+
+.contact-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+}

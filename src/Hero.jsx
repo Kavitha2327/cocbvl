@@ -1,34 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Hero.css";
-import PhotoCarousel from "./Carousel";
 
 export default function Hero() {
-  return (
-    <>
-      <section className="hero-section">
-        <h1 className="hero-title">CHURCH OF CHRIST</h1>
-        <p className="hero-subtitle">Bikkavolu</p>
-       
+  const images = ["/images/1.jpeg", "/images/2.jpeg", "/images/3.jpeg"];
+  const [index, setIndex] = useState(0);
 
-        <div className="hero-buttons">
-          <button className="btn outline">ABOUT US</button>
-          <button className="btn outline">UPCOMING EVENTS</button>
-        </div>
-      </section>
-      <section className="band-wrapper">
-        <div className="photo-row">
-          <div className="photo-card">
-            <img src="/images/1.jpeg" alt="Poster 1" />
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <section className="band-wrapper">
+      <div
+        className="carousel-track"
+        style={{ transform: `translateX(-${index * 100}%)` }}
+      >
+        {images.map((img, i) => (
+          <div className="carousel-slide" key={i}>
+            <img src={img} alt={`slide-${i}`} />
           </div>
-          <div className="photo-card">
-            <img src="/images/2.jpeg" alt="Poster 2" />
-          </div>
-          <div className="photo-card">
-            <img src="/images/3.jpeg" alt="Poster 3" />
-          </div>
-        </div>
-      </section>
-      {/* <PhotoCarousel /> */}
-    </>
+        ))}
+      </div>
+    </section>
   );
 }
