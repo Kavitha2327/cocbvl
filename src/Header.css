@@ -12,7 +12,6 @@ html {
 }
 
 .page-wrapper {
-  font-family: "Georgia", serif;
   background: #ffffff;
   color: #0d1b2a;
   overflow-x: hidden; /* prevents horizontal scroll */

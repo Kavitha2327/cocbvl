@@ -1,16 +1,12 @@
-#events{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .events-section {
   padding: 80px 40px;
-  background:#625e5c;
+  background:#f7f5f4;
   text-align: center;
 }
 
 .events-title {
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
-  font-weight: 600;
+  font-weight: 600px;
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
@@ -49,7 +45,7 @@
 }
 
 .event-body {
-  background: #2d2d2c;
+  background: #ff0000;
   color: #f2ecec;
   text-align: left;
   padding: 20px 22px;

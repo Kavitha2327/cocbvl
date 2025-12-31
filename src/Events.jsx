@@ -19,8 +19,8 @@ export default function Events() {
 
   return (
     <section id="events" className="events-section">
-      <h3 className="events-title">Upcoming Events</h3>
-      <div  />
+      <h2 className="events-title">Upcoming Events</h2>
+      <div />
 
       <div className="events-grid">
         {events.map((e, i) => (
