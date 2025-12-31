@@ -1,5 +1,5 @@
 import About from "./About";
-import Contact from "./Contact";
+import Contact from "./Preachers";
 import Events from "./Events";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
@@ -8,6 +8,7 @@ import Hero from "./Hero";
 import "./HomePage.css";
 import PrayersReq from "./PrayerReq";
 import Services from "./Services";
+import PreachersSection from "./Preachers";
 
 export default function HomePage() {
   return (
@@ -36,9 +37,9 @@ export default function HomePage() {
         <Services />
       </section>
 
-      {/* <section id="contact">
-        <Contact />
-      </section> */}
+      <section id="contact">
+        <PreachersSection />
+      </section>
 
       <Footer />
       
