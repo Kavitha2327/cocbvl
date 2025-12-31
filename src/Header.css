@@ -63,6 +63,10 @@ html {
   letter-spacing: 1px;
 }
 
+.logo-text:hover {
+  color: #ff0000;
+}
+
 .nav {
   display: flex;
   gap: 28px;
@@ -75,7 +79,7 @@ html {
 }
 
 .nav a:hover {
-  color: #e94b3c;
+  color: #ff0000;
 }
 
 .start-btn {

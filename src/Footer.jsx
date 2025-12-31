@@ -1,32 +1,66 @@
-import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
   return (
-    <section className="connect-footer">
-      <div className="overlay">
-        <h2 className="footer-title">Get Connected</h2>
-        <p className="footer-subtitle">
-          Follow <strong>@churchofchristbvl</strong> to stay connected with
-          Church of Christ Bikkavolu
-        </p>
+    <section id="contact" className="contact-footer-banner">
+      <div className="contact-footer-overlay">
 
-        <div className="social-links">
-          <a href="https://www.instagram.com/coc_bikkavolu/" target="_blank" className="social-card">
-            <span className="icon">📸</span>
-            <span className="label">INSTAGRAM</span>
-          </a>
+        {/* CONTACT CARD */}
+        <div className="contact-card">
+          <div className="contact-left">
+            <h3>Church of Christ – Biccaavolu</h3>
+            <p>
+              Near Main Road, Biccaavolu<br />
+              East Godavari, Andhra Pradesh – 533343
+            </p>
 
-          <a href="https://www.facebook.com/johndean.m" target="_blank" className="social-card">
-            <span className="icon">f</span>
-            <span className="label">FACEBOOK</span>
-          </a>
+            <p>
+              📞 Church Office<br />
+              ✉ churchofchristbiccaavolu@gmail.com
+            </p>
+          </div>
 
-          <a href="https://www.youtube.com/@cocbikkavolu" target="_blank"  className="social-card">
-            <span className="icon">▶</span>
-            <span className="label">YOUTUBE</span>
-          </a>
+          <div className="contact-right">
+            <h3>Contact Information</h3>
+
+            <p>
+              <strong>M John Dean</strong><br />
+              📞 +91 91234 56789
+            </p>
+
+            <p>
+              <strong>G Chakravarthi</strong><br />
+              📞 +91 99887 66554
+            </p>
+          </div>
         </div>
+
+        {/* GET CONNECTED */}
+        <div className="connect-section">
+          <h2 className="footer-title">Get Connected</h2>
+          <p className="footer-subtitle">
+            Follow <strong>@churchofchristbvl</strong> to stay connected with
+            Church of Christ Bikkavolu
+          </p>
+
+          <div className="social-links">
+            <a href="https://www.instagram.com/coc_bikkavolu/" target="_blank" className="social-card">
+              <span className="icon">📸</span>
+              <span className="label">INSTAGRAM</span>
+            </a>
+
+            <a href="https://www.facebook.com/johndean.m" target="_blank" className="social-card">
+              <span className="icon">f</span>
+              <span className="label">FACEBOOK</span>
+            </a>
+
+            <a href="https://www.youtube.com/@cocbikkavolu" target="_blank" className="social-card">
+              <span className="icon">▶</span>
+              <span className="label">YOUTUBE</span>
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
   );

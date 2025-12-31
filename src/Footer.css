@@ -1,31 +1,59 @@
-.connect-footer {
+.contact-footer-banner {
   width: 100%;
-  height: 520px;
-  background: url("../public/images/2.jpeg") center/cover no-repeat;
-  border-radius: 20px;
-  margin: 80px auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay {
-  width: 100%;
-  min-height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  
-  color: #ffffff;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("/images/2.jpeg") center/cover no-repeat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.contact-footer-overlay {
+  width: 100%;
+  max-width: 1200px;
+  padding: 80px 30px;
+}
+
+/* CONTACT CARD */
+.contact-card {
+  background: #625e5c62;
+  border-radius: 20px;
+  padding: 55px 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+  margin-bottom: 80px;
+}
+
+.contact-left,
+.contact-right {
+  width: 50%;
+}
+
+.contact-card h3 {
+  color: #e94b3c;
+  margin-bottom: 14px;
+  font-size: 22px;
+}
+
+.contact-card p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #fcf8f8;
+  margin-bottom: 22px;
+}
+
+/* CONNECT SECTION */
+.connect-section {
   text-align: center;
-  padding: 40px 20px;
+  color: #ffffff;
 }
 
 .footer-title {
-  font-size: 48px;
-  font-weight: 600;
-  margin-bottom: 12px;
+  font-size: 46px;
+  margin-bottom: 10px;
 }
 
 .footer-subtitle {
@@ -37,8 +65,8 @@
 .social-links {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social-card {
@@ -67,4 +95,21 @@
 .label {
   font-size: 14px;
   letter-spacing: 1px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .contact-card {
+    flex-direction: column;
+    padding: 35px 30px;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+
+  .footer-title {
+    font-size: 32px;
+  }
 }

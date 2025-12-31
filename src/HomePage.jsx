@@ -36,9 +36,9 @@ export default function HomePage() {
         <Services />
       </section>
 
-      <section id="contact">
+      {/* <section id="contact">
         <Contact />
-      </section>
+      </section> */}
 
       <Footer />
       
