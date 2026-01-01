@@ -8,7 +8,7 @@ export default function Header() {
       {/* Banner Section */}
       <div className="banner-wrapper">
         <img
-          src="/images/banner1.jpg"
+          src="/images/banner copy.jpg"
           alt="Church of Christ Biccavolu Banner"
           className="banner-img"
         />

@@ -7,7 +7,7 @@ export default function Events() {
       title: "Youth Night",
       date: "January 1st, 2026 6:30 PM",
       place: "Church of Christ – Biccavolu",
-      img: "/images/2.jpeg",
+      img: "/images/y.png",
     },
     {
       title: "Youth Rally",

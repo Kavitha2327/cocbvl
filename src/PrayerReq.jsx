@@ -8,8 +8,7 @@ export default function PrayerRequest() {
         <div className="prayer-text">
           <h2>Submit a Prayer Request</h2>
           <p>
-            We believe in the power of prayer. Share your request with us and our
-            prayer team will faithfully stand with you in prayer.
+            We believe in the power of prayer. Share your request with us and we will faithfully stand with you in prayer.
           </p>
 
           <blockquote>
