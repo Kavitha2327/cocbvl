@@ -7,8 +7,8 @@ import Header from "./Header";
 import Hero from "./Hero";
 import "./HomePage.css";
 import PrayersReq from "./PrayerReq";
-import Services from "./Services";
 import PreachersSection from "./Preachers";
+import ServicesSection from "./ServicesSection";
 
 export default function HomePage() {
   return (
@@ -34,7 +34,7 @@ export default function HomePage() {
       </section>
 
       <section id="services">
-        <Services />
+        <ServicesSection />
       </section>
 
       <section id="contact">

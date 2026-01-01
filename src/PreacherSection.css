@@ -99,3 +99,9 @@
   color: #555;
   line-height: 1.7;
 }
+
+.safe-img {
+  object-fit: contain !important;
+  padding: 10 0px;
+  background: #fcf9f9;
+}

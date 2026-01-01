@@ -43,6 +43,13 @@
   object-fit: cover;
 }
 
+.weekly-place {
+  margin-left: auto;
+  font-size: 13px;
+  color: #999;
+}
+
+
 .weekly-text {
   margin-left: 16px;
   display: flex;

@@ -25,12 +25,12 @@ export default function Footer() {
 
             <p>
               <strong>M John Dean</strong><br />
-              📞 +91 91234 56789
+              📞 +91 9989922844
             </p>
 
             <p>
               <strong>G Chakravarthi</strong><br />
-              📞 +91 99887 66554
+              📞 +91 8106920239
             </p>
           </div>
         </div>

@@ -1,5 +1,9 @@
-import React from "react";
+import FounderSection from "./FounderSection";
 
-export default function About() {
-    return <h2>About Us Page</h2>;
+export default function AboutPage() {
+  return (
+    <>
+      <FounderSection />
+    </>
+  );
 }
